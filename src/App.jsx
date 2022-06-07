@@ -46,7 +46,6 @@ export default class Editor extends Component {
     return (
       <div>
         <textarea value={this.state.input} onChange={this.handleChange} id="editor" col="30" row="15">
-
         </textarea>
         <div id="preview" dangerouslySetInnerHTML={this.parseMarkdown()}></div>
       </div>
